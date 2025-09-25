@@ -1,11 +1,21 @@
-let array = [1, 2, 3, 'asdasd', true, [1, 2, 3]]
-console.log(array);
-console.log(array[2]);
-console.log(array[5][1]);
-array [3] = 'hello';
-console.log(array);
-console.log(array.length);
-array.push('new value');
-console.log(array);
-let text = array.join('UwU');
-console.log(text);
+let obj ={
+    name: 'Mirell'
+    age: 17,
+    cake:[vanilla, sokolate, egg],
+    cat:{
+        age:3,
+        name: 'egg',
+        gender: 'F'
+    },
+    parentName: 'Urmas',
+    a2sd: asd,
+    'parent-name': 'name'
+    '2asd': 'asd',
+};
+
+console.log(obj);
+console.log(obj.name);
+console.log(obj.cake[1]);
+console.log(obj.name);
+console.log(obj['parent-name']);
+console.log(Object.keys(obj));
