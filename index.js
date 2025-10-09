@@ -1,26 +1,38 @@
-let obj ={
-    name: 'Mirell',
-    age: 17,
-    sexuality: 'bi',
-    fruits: ['mango', 'apple', 'cherry'],
-    cat: {
-        age: 9,
-        name: 'Mursik',
-        gaender: 'Female'
-    },
-    parentName: 'Julia',
-    a2sd: 'asd',
-    // parent-name: 'asd', Not allowed bcs -
-    //2asd: 'asd', Not allowed to start with number
-    'parent-name': 'Name',
-    '2asd': 'asd',
-    'some thing': 'asd2',
-};
+let bool = true;
+console.log(bool);
+bool =false;
+console.log(bool);
+bool = true && false; // AND
+bool =false && true;
+bool =false && false;
+bool = true && true;
+console.log(bool);
+bool = true || false; // OR
+bool = true || false; // OR
+bool = true || false; // OR
+bool = true || false; // OR
+console.log(bool);
+bool = !true; //NOT
+console.log(bool);
+bool = !true; //NOT
+console.log(bool);
  
-console.log(obj);
-console.log(obj.name);
-console.log(obj.fruits[1]);
-console.log(obj.cat.name);
-console.log(obj['parent-name']);
-console.log(Object.keys(obj));
+bool = true;
+bool= ( true && false || true) && !( false || true && false);
+console.log(bool);
+ 
+bool = 10 > 5;
+bool = 10 < 5;
+bool = 10 > 10;
+bool = 10 < 10;
+bool = 10 == 10;
+bool = '10' == 10;
+bool = '10' === 10; // strict will check if types match before values
+bool = 10 >= 10;
+bool = 10 <= 10;
+bool = '10' != 10;
+bool = '10' !== 10;
+bool = [] == '';
+bool = [1, 2, 3] == 1;
+console.log(bool);
  
