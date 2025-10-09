@@ -1,44 +1,12 @@
+let text = 'Hello World';
+console.log(text[3]);
+let arrey = [1, 2, 3];
+let num = 2;
+num.toExponential();
+arrey.fill(1, 3,6);
+console.log(text.length);
+console.log(Math.PI);
  
-let array = ['apple', 'pear', 'cherry', 'mango'];
- 
-for(fruit of array) {
-    console.log(fruit);
-}
- 
-array.forEach(fruit => {
-    console.log(fruit);
-});
- 
-let obj = {
-    name: 'Valeria',
-    age: 17,
-    color: 'red',
-}
- 
-for(key in obj) {
-    console.log(key);
-    console.log(obj[key]);
-}
- 
-let capital = array.map(fruit => {
-    return fruit.toUpperCase();
-})
- 
-console.log(capital);
- 
- let aFruits = array.filter(fruit => {
-    return fruit.includes('a');
- });
- 
-console.log(aFruits);
- 
-let nums = [1, 2, 3, 4, 5, 6, 7];
-let sum = nums.reduse((total, num) => {
-    return total+ num;
- 
-});
- 
-console.log(sum);
  
  
  
